@@ -516,12 +516,12 @@
   display: none;
 }
 
-/*cta*/
-.cta-main {
+/*form*/
+.form-main {
   background: #f6f8f7;
 }
 
-.cta-heading {
+.form-heading {
   color: #292e3d;
   font-size: 36px;
   font-weight: 700;
@@ -529,7 +529,7 @@
   margin-top: 38px;
 }
 
-.cta-para {
+.form-para {
   width: 90%;
   color: #292e3d;
   text-align: center;
@@ -538,15 +538,15 @@
   font-weight: 400;
 }
 
-.cta-inputs {
+.form-inputs {
   margin: auto;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.cta-box-1,
-.cta-box-2 {
+.form-box-1,
+.form-box-2 {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -555,7 +555,7 @@
   gap: 10px;
 }
 
-.cta-input-1 {
+.form-input-1 {
   height: auto;
   width: 90%;
   padding: 8px 6px;
@@ -563,7 +563,7 @@
   border: solid 1px;
 }
 
-.cta-button {
+.form-button {
   background-color: #2947a9;
   color: #f6f8f7;
   padding: 16px 20px;
@@ -576,7 +576,7 @@
   width: 20%;
 }
 
-.cta-box-4 {
+.form-box-4 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -585,7 +585,7 @@
   margin: auto;
 }
 
-.cta-box-3 {
+.form-box-3 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -690,7 +690,7 @@
 
 .about-us-button:hover,
 .stats-right-button:hover,
-.cta-button:hover,
+.form-button:hover,
 .bottom-button:hover,
 .bottom-left-social:hover,
 .bottom-logo:hover {
@@ -707,15 +707,15 @@
   cursor: pointer;
 }
 
-.cta-input-1:focus {
+.form-input-1:focus {
   outline: none;
 }
-.cta-input-3 {
+.form-input-3 {
   outline: none;
 }
 
-.cta-input-1,
-.cta-input-3 {
+.form-input-1,
+.form-input-3 {
   border: #a3aac2 solid 1px;
   padding: 10px;
 }
@@ -1114,41 +1114,41 @@
     margin: 0px 0px 30px 700px;
   }
 
-  /*cta*/
+  /*form*/
 
-  .cta-heading {
+  .form-heading {
     margin-top: 138px;
   }
 
-  .cta-para {
+  .form-para {
     width: 539px;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 451px;
   }
 
-  .cta-inputs {
+  .forminputs {
     margin: 38px 424px 61px 444px;
   }
 
-  .cta-box-1,
-  .cta-box-2 {
+  .form-box-1,
+  .form-box-2 {
     flex-direction: row;
     gap: 30px;
   }
 
-  .cta-box-3 {
-    margin: 0px;
-    width: 572px;
+  .form-box-3 {
+    margin-left: 404px;
+    width: 620px;
   }
 
-  .cta-input-1 {
+  .form-input-1 {
     height: 41px;
     width: 280px;
     padding: 10px 8px;
   }
 
-  .cta-button {
+  .form-button {
     height: 53px;
     width: 176px;
   }
