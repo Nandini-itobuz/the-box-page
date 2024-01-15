@@ -667,6 +667,14 @@
   display: none;
 }
 
+.bottom-left-text{
+  width: 900px;
+}
+
+.bottom-left-bold{
+  width: 230px;
+}
+
 /*footer*/
 .footer-main {
   background-color: #2947a9;
@@ -1148,11 +1156,11 @@
   /*bottom*/
   .bottom {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
   }
 
   .bottom-left {
-    margin: 0px 400px 55px 112px;
+    margin: 0px 00px 55px 112px;
   }
 
   .bottom-right {
