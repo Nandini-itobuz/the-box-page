@@ -154,7 +154,7 @@
   margin: 5px 0px 10px 0px;
 }
 
-.parareasons {
+.reasons-text {
   color: #858ead;
   font-size: 14px;
   font-weight: 400;
@@ -232,7 +232,7 @@
   gap: 30px;
 }
 
-.cointainer1 {
+.cointainer-top {
   display: flex;
   margin-top: 26px;
   flex-direction: column;
@@ -241,7 +241,7 @@
   gap: 20px;
 }
 
-.container2 {
+.container-bottom {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -249,7 +249,7 @@
   gap: 20px;
 }
 
-.servicesitem1 {
+.servicesitem-odd {
   height: 181px;
   width: 270px;
   padding: 20px;
@@ -259,7 +259,7 @@
   background-color: white;
 }
 
-.servicesitem2 {
+.servicesitem-even {
   height: 181px;
   width: 270px;
   padding: 20px;
@@ -269,11 +269,11 @@
   background-color: #2947a9;
 }
 
-.sicon1 {
+.s-icon {
   margin: 40px 115px 20px 118px;
 }
 
-.service-rect {
+.service-line {
   width: 60px;
   height: 2px;
   background-color: #e0e3eb;
@@ -281,21 +281,21 @@
   margin: 0px 115px 20px 105px;
 }
 
-.services-para2 {
+.s-topic-even {
   text-align: center;
   color: white;
 }
 
-.services-para1 {
+.s-topic-odd {
   text-align: center;
   color: #2947a9;
 }
 
 /*stats*/
-.stats-ill1,
-.stats-ill2,
-.stats-ill3,
-.stats-ill4 {
+.stats-hand,
+.stats-pen,
+.stats-cup,
+.stats-pencil {
   display: none;
 }
 
@@ -347,13 +347,13 @@
   width: 100%;
 }
 
-.stats-left-1-para1 {
+.stats-left-num {
   color: #292e3d;
   font-size: 50px;
   font-weight: 600;
 }
 
-.stats-left-1-para2 {
+.stats-left-text {
   color: #667299;
   font-size: 20px;
   font-weight: 400;
@@ -501,12 +501,12 @@
   padding: 10px;
 }
 
-.project-right-box-text-1 {
+.project-right-box-top {
   font-size: 14px;
   font-weight: 700;
 }
 
-.project-right-box-text-2 {
+.project-right-box-below {
   font-size: 10px;
   font-weight: 500;
   padding-top: 5px;
@@ -545,8 +545,8 @@
   gap: 10px;
 }
 
-.form-box-1,
-.form-box-2 {
+.form-box-name,
+.form-box-rsn {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -555,7 +555,7 @@
   gap: 10px;
 }
 
-.form-input-1 {
+.form-input-box {
   height: auto;
   width: 90%;
   padding: 8px 6px;
@@ -576,7 +576,7 @@
   width: 20%;
 }
 
-.form-box-4 {
+.form-box-submit {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -585,7 +585,7 @@
   margin: auto;
 }
 
-.form-box-3 {
+.form-box-add {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -610,7 +610,7 @@
   position: relative;
 }
 
-.bottom-left-1 {
+.bottom-left-head {
   color: #2947a9;
   font-size: 16px;
   margin-top: 20px;
@@ -618,7 +618,7 @@
   font-weight: 600;
 }
 
-.bottom-left-2 {
+.bottom-left-value {
   font-size: 16px;
   font-weight: 400;
   padding-left: 30px;
@@ -707,15 +707,15 @@
   cursor: pointer;
 }
 
-.form-input-1:focus {
+.form-input-box:focus {
   outline: none;
 }
-.form-input-3 {
+.form-input-email {
   outline: none;
 }
 
-.form-input-1,
-.form-input-3 {
+.form-input-box,
+.form-input-email {
   border: #a3aac2 solid 1px;
   padding: 10px;
 }
@@ -724,8 +724,8 @@
   cursor: pointer;
 }
 
-.servicesitem1:hover,
-.servicesitem2:hover,
+.servicesitem-odd:hover,
+.servicesitem-even:hover,
 .add-text2:hover {
   cursor: pointer;
 }
@@ -848,7 +848,7 @@
     border-radius: 6px;
   }
 
-  .parareasons {
+  .reasons-text {
     font-size: 18px;
     font-weight: 400;
   }
@@ -912,12 +912,12 @@
     font-size: 36px;
   }
 
-  .cointainer1 {
+  .cointainer-top {
     flex-direction: row;
     gap: 60px;
   }
 
-  .container2 {
+  .container-bottom {
     flex-direction: row;
     gap: 60px;
   }
@@ -945,11 +945,11 @@
     padding: 70px;
   }
 
-  .stats-left-1-para1 {
+  .stats-left-num {
     font-size: 72px;
   }
 
-  .stats-left-1-para2 {
+  .stats-left-text {
     font-size: 24px;
   }
 
@@ -996,7 +996,7 @@
     left: 261px;
   }
 
-  .stats-ill1 {
+  .stats-hand {
     position: absolute;
     top: 83px;
     bottom: 523px;
@@ -1004,7 +1004,7 @@
     display: flex;
   }
 
-  .stats-ill2 {
+  .stats-pen {
     position: absolute;
     top: 172px;
     right: 1182px;
@@ -1013,14 +1013,14 @@
     display: flex;
   }
 
-  .stats-ill3 {
+  .stats-cup{
     position: absolute;
     top: 339px;
     left: 762px;
     display: flex;
   }
 
-  .stats-ill4 {
+  .stats-pencil {
     position: absolute;
     top: 582px;
     left: 549px;
@@ -1131,18 +1131,18 @@
     margin: 38px 424px 61px 444px;
   }
 
-  .form-box-1,
-  .form-box-2 {
+  .form-box-name,
+  .form-box-rsn {
     flex-direction: row;
     gap: 30px;
   }
 
-  .form-box-3 {
+  .form-box-add {
     margin-left: 404px;
     width: 620px;
   }
 
-  .form-input-1 {
+  .form-input-box {
     height: 41px;
     width: 280px;
     padding: 10px 8px;
