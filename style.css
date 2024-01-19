@@ -229,14 +229,24 @@
 
 /*services*/
 
+.topic-v2{
+  padding: 20px;
+  color:  #292E3D;
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+}
+
+.card-group-v2{
+  background-color: #F6F8F7;
+}
 
 .container-v2{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap:40px;
-  padding: 10%;
-  background-color: #F6F8F7;
+  padding: 5% 10% 10% 10%;
   justify-content: center;
   
 }
@@ -284,8 +294,18 @@ font-weight: 600;
   font-weight: 600;
 }
 
+.cards-v2-odd:hover,  .cards-v2-even:hover{
+  cursor: pointer;
+  transform: scale(0.9);
+}
 
+.card-button{
+  cursor: pointer;
+}
 
+.card-container1,.card-container2, .card-container3, .card-container4{
+
+}
 
 
 /*stats*/
@@ -311,7 +331,7 @@ font-weight: 600;
 
 .card-num{
   color: #292E3D;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 500;
 }
 
@@ -358,7 +378,6 @@ font-weight: 400;
   font-size: 15px;
   background-color: #2947A9;
 }
-
 
 
 
@@ -797,7 +816,7 @@ font-weight: 400;
 }
 
 .card-num{
-    font-size: 68px;
+    font-size: 60px;
     font-weight: 600;
 }
 
